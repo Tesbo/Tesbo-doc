@@ -10,7 +10,7 @@
 module.exports = {
   title: 'My Site',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://tesbo-doc.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
   favicon: 'img/favicon.ico',
