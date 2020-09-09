@@ -25,6 +25,44 @@
   --ifm-code-font-size: 95%;
 }
 
+
+.demo {
+
+  border-collapse:collapse;
+  
+}
+.demo th {
+  border:1px solid #C0C0C0;
+  padding:5px;
+  background:#F0F0F0;
+}
+.demo td {
+  border:1px solid #C0C0C0;
+  padding:5px;
+  
+}
+
+.width20 {
+  border:1px solid #C0C0C0;  
+  width : 20%  
+}
+
+.width30 {
+  border:1px solid #C0C0C0;
+  
+  width : 30%
+  
+}
+
+.width40 {
+  border:1px solid #C0C0C0;
+  
+  width : 40%
+  
+}
+
+
+
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
