@@ -15,8 +15,6 @@ We need some Prerequisite, let’s take a look on it
 3. Any IDE or Editor
 4. Basic Git Knowledge
 
-**Setup:**
-
 Now Let's open the Editor and create a Test in Tesbo, We are here using an Intellij Community Edition but you can use it any Java Editor App. 
 
 1. Create a New Project.
