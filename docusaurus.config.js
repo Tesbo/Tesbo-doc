@@ -35,12 +35,7 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Learn',
-          items: [
-           
-          ],
-        },
+       
         {
           title: 'Community',
           items: [

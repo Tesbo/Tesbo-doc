@@ -17,32 +17,56 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Cross browser support',
+   
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Run your test on any browsers, versions and viewport.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Parallel Test execution',
+   
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       Run your test in parallel to reduce the Test execution time.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Easy to integrate with CI platform',
+  
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      Integrate your like test with any CI platform like Jenkins, Bamboo, TeamCity etc..
+      </>
+    ),
+  },
+  {
+    title: 'Data Driven Testing',
+   
+    description: (
+      <>
+      Run single test for the multiple data using excel or Json.
+      </>
+    ),
+  },
+  {
+    title: 'In Built Web driver Manager',
+   
+    description: (
+      <>
+     You don't need to worry about the update your binary when browser version are updated.
+      </>
+    ),
+  },
+  {
+    title: 'Selenium Grid Supports',
+  
+    description: (
+      <>
+      Expand your test execution on various platforms and browsers with Selenium Grid.
       </>
     ),
   },
