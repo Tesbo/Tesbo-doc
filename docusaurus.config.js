@@ -1,15 +1,8 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @format
- */
+
 
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Tesbo',
+  tagline: 'Built For Tester, Build By Tester',
   url: 'https://tesbo-doc.netlify.app',
   baseUrl: '/',
   onBrokenLinks: 'ignore',
@@ -18,10 +11,10 @@ module.exports = {
   projectName: 'Tesbo-Doc', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Facebook Project',
+      title: '',
       logo: {
-        alt: 'My Facebook Project Logo',
-        src: 'img/logo.svg',
+        alt: 'Tesbo Documentation',
+        src: 'img/logo1.png',
       },
       items: [
         {
@@ -33,7 +26,7 @@ module.exports = {
         {to: 'blog', label: 'Blog', position: 'left'},
         // Please keep GitHub link to the right for consistency.
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Tesbo/Tesbo-Web',
           label: 'GitHub',
           position: 'right',
         },
@@ -45,14 +38,7 @@ module.exports = {
         {
           title: 'Learn',
           items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2',
-            },
+           
           ],
         },
         {
@@ -60,15 +46,15 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com/questions/tagged/tesbo',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/TesboHQ',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/gQsud7',
             },
           ],
         },
@@ -81,32 +67,19 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/Tesbo/Tesbo-Web',
             },
           ],
         },
-        {
-          title: 'Legal',
-          // Please do not remove the privacy and terms, it's a legal requirement.
-          items: [
-            {
-              label: 'Privacy',
-              href: 'https://opensource.facebook.com/legal/privacy/',
-            },
-            {
-              label: 'Terms',
-              href: 'https://opensource.facebook.com/legal/terms/',
-            },
-          ],
-        },
+       
       ],
       logo: {
-        alt: 'Facebook Open Source Logo',
-        src: 'img/oss_logo.png',
-        href: 'https://opensource.facebook.com',
+        alt: 'QAble',
+        src: 'img/logo.e2549a42.svg',
+        href: 'https://qable.io',
       },
       // Please do not remove the credits, help to publicize Docusaurus :)
-      copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} QAble. Built with Docusaurus.`,
     },
   },
   presets: [
