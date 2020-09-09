@@ -86,13 +86,13 @@ module.exports = {
           // Please change this to your repo.
    
           editUrl:
-            'https://github.com/Tesbo/Tesbo-Doc/edit/master/docs/',
+            'https://github.com/Tesbo/Tesbo-Doc/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/Tesbo/Tesbo-Doc/edit/master/blog/',
+            'https://github.com/Tesbo/Tesbo-Doc/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
