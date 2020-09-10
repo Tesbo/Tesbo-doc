@@ -49,6 +49,7 @@ module.exports = {
             },
             {
               label: 'Discord',
+              href: 'https://discord.gg/x6MNGNE',
             },
           ],
         },
