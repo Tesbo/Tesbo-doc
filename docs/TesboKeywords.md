@@ -33,10 +33,21 @@ This page contains all the Tesbo Supported Keywords
 		<td class="width40"><div> Perform double click action on the given Element.<br></br> e.g @clickHereLink</div>
         </td>
 	</tr>
-   
-
-
-
+    <tr>
+		<td> </td>
+		<td><code>right click</code></td>
+		<td class="width30">Step: right click on @ForgotPasswordk</td>
+		<td class="width40"><div> Perform right click action on the given Element. e.g @ForgotPasswordk. <br></br>
+        it will open the context menu</div>
+        </td>
+	</tr>
+    <tr>
+		<td> </td>
+		<td><code>right click</code></td>
+		<td class="width30">Step: right click on @ForgotPasswordk</td>
+		<td class="width40"><div> Perform right click action on the given Element. e.g @ForgotPasswordk. <br></br>
+        it will open the context menu</div>
+        </td>
+	</tr>
     </tbody>
-    
 </table>
