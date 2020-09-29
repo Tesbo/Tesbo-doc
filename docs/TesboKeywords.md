@@ -134,7 +134,7 @@ This page contains all the Tesbo Supported Keywords
     </tbody>
 </table>
 
-<h4>Enter & Clear</h4> 
+<h4>Navigation</h4> 
 <table>
 	<thead>
 	<tr>
@@ -145,22 +145,56 @@ This page contains all the Tesbo Supported Keywords
 	</thead>
 	<tbody>
 	<tr>
-		<td class="width10">Enter text</td>
-		<td class="width30">Step: Enter 'admin@phptravels.com' in @Email_Box</td>
-		<td class="width40"><div> Tesbo will find the element Email_Box and then enter the text 'admin@phptravels.com'</div>
+		<td class="width10">Navigate using browser back button</td>
+		<td class="width30">Step: Navigate to back</td>
+		<td class="width40"><div>Tesbo will navigate to on the previous page</div>
         </td>
 	</tr>
 	<tr>
-		<td class="width10">Clear  text</td>
-		<td class="width30">Step: Clear @Email_Box textbox</td>
-		<td class="width40"><div> Tesbo will find the element Email_Box and then clear the text of textbox if available</div>
+		<td class="width10">Navigate to browser next button</td>
+		<td class="width30">Step: Navigate to forward</td>
+		<td class="width40"><div> Tesbo will navigate to next button</div>
         </td>
 	</tr>
 	<tr>
-		<td class="width10">Clear and enter</td>
-		<td class="width30">Step: Clear and enter 'Hello@test.com' in @Email_Box</td>
-		<td class="width40"><div> Tesbo will clear the text first from Email_Box and then enter 'Hello@test.com'</div>
+		<td class="width10">refresh page</td>
+		<td class="width30">Step: refresh page</td>
+		<td class="width40"><div> Tesbo will refresh the page</div>
         </td>
 	</tr>
     </tbody>
 </table>
+
+
+<h4>Navigation</h4> 
+<table>
+	<thead>
+	<tr>
+		<th>Action</th>
+		<th>Keyword</th>
+		<th>Description</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td class="width10">Navigate using browser back button</td>
+		<td class="width30">Step: Navigate to back</td>
+		<td class="width40"><div>Tesbo will navigate to on the previous page</div>
+        </td>
+	</tr>
+	<tr>
+		<td class="width10">Navigate to browser next button</td>
+		<td class="width30">Step: Navigate to forward</td>
+		<td class="width40"><div> Tesbo will navigate to next button</div>
+        </td>
+	</tr>
+	<tr>
+		<td class="width10">refresh page</td>
+		<td class="width30">Step: refresh page</td>
+		<td class="width40"><div> Tesbo will refresh the page</div>
+        </td>
+	</tr>
+    </tbody>
+</table>
+
+
