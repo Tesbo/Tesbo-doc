@@ -8,19 +8,17 @@ title: All Tesbo Keyword and Action
 
 This page contains all the Tesbo Supported Keywords
 
-
+<h4>Click :</h4> 
 <table class="demo">
 	<thead>
 	<tr>
 		<th>Action</th>
 		<th>Keyword</th>
 		<th>Example</th>
-		<th>Description</th>
 	</tr>
 	</thead>
 	<tbody>
 	<tr>
-		<td rowspan="6"> Click</td>
 		<td><code>click</code></td>
 		<td class="width30">Step: click on @forgotpassword</td>
 		<td class="width40"><div> Perform click action on the given Element.<br></br> e.g @forgotpassword</div>
@@ -58,17 +56,46 @@ This page contains all the Tesbo Supported Keywords
         </td>
 	</tr>
 	<tr>
-	 	<td>Click Element From List</td>
+		<td class="width10"><code>Click on first element from List</code></td>
+		<td class="width30">Click on first element from List @NumberList</td>
+		<td class="width40"><div> Tesbo will find all the elements and click on the first element from list</div>
+        </td>
+	</tr>
+    </tbody>
+</table>
+
+<h4>Click From List:</h4> 
+<table>
+	<thead>
+	<tr>
+		<th>Action</th>
+		<th>Keyword</th>
+		<th>Example</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
 		<td class="width10"><code>Click on first element from List</code></td>
 		<td class="width30">Click on first element from List @NumberList</td>
 		<td class="width40"><div> Tesbo will find all the elements and click on the first element from list</div>
         </td>
 	</tr>
 	<tr>
-	 	<td>Click Element From List</td>
-		<td class="width10"><code>Click on first element from List</code></td>
-		<td class="width30">Click on first element from List @NumberList</td>
-		<td class="width40"><div> Tesbo will find all the elements and click on the first element from list</div>
+		<td class="width10"><code>Click on a Last element from the list</code></td>
+		<td class="width30">Step: Click on last element from List @NumberList</td>
+		<td class="width40"><div> Tesbo will find all the elements and click on the last element from list</div>
+        </td>
+	</tr>
+	<tr>
+		<td class="width10"><code>Click on an element whose text matches with the given string</code></td>
+		<td class="width30">Step: click on "Red" from List @ColorList</td>
+		<td class="width40"><div> Tesbo will find all the elements and get text of element and if element text is match with the given text, it will click on that element</div>
+        </td>
+	</tr>
+	<tr>
+		<td class="width10"><code>Click on element by index from list</code></td>
+		<td class="width30">Step: click on from List @NumberList</td>
+		<td class="width40"><div> Tesbo will create a element list array with given locators and then click on the given index. As this is array first element start from 0 index</div>
         </td>
 	</tr>
     </tbody>
