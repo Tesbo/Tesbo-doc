@@ -165,3 +165,75 @@ This page contains all the Tesbo Supported Keywords
     </tbody>
 </table>
 
+<h4>Browser Window Action</h4> 
+<table>
+	<thead>
+	<tr>
+		<th>Action</th>
+		<th>Keyword</th>
+		<th>Description</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td class="width10">Close Current Browser Window</td>
+		<td class="width30">Step: Close window</td>
+		<td class="width40"><div> Close the current window</div>
+        </td>
+	</tr>
+	<tr>
+		<td class="width10">Minimize Browser Window</td>
+		<td class="width30">Step: Window minimize</td>
+		<td class="width40"><div> Tesbo will minimize the browser window</div> </td>
+	</tr>
+	<tr>
+		<td class="width10">Maximize Browser Window</td>
+		<td class="width30">Step: Window Maximize</td>
+		<td class="width40"><div> Tesbo will maximise the browser window</div>
+        </td>
+	</tr>
+	<tr>
+		<td class="width10">Resize the Browser Window</td>
+		<td class="width30">Step: Window Resize (width,height)</td>
+		<td class="width40"><div> Tesbo will resize te browser Window</div>
+        </td>
+	</tr>
+    </tbody>
+</table>
+
+
+<h4>Wait</h4> 
+<table>
+	<thead>
+	<tr>
+		<th>Action</th>
+		<th>Keyword</th>
+		<th>Description</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td class="width10">Close Current Browser Window</td>
+		<td class="width30">Step: Close window</td>
+		<td class="width40"><div> Close the current window</div>
+        </td>
+	</tr>
+	<tr>
+		<td class="width10">Minimize Browser Window</td>
+		<td class="width30">Step: Window minimize</td>
+		<td class="width40"><div> Tesbo will minimize the browser window</div> </td>
+	</tr>
+	<tr>
+		<td class="width10">Maximize Browser Window</td>
+		<td class="width30">Step: Window Maximize</td>
+		<td class="width40"><div> Tesbo will maximise the browser window</div>
+        </td>
+	</tr>
+	<tr>
+		<td class="width10">Resize the Browser Window</td>
+		<td class="width30">Step: Window Resize (width,height)</td>
+		<td class="width40"><div> Tesbo will resize te browser Window</div>
+        </td>
+	</tr>
+    </tbody>
+</table>
