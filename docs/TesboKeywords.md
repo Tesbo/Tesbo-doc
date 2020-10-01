@@ -213,26 +213,26 @@ This page contains all the Tesbo Supported Keywords
 	</thead>
 	<tbody>
 	<tr>
-		<td class="width10">Close Current Browser Window</td>
-		<td class="width30">Step: Close window</td>
-		<td class="width40"><div> Close the current window</div>
+		<td class="width10">Wait Until Element is clickable</td>
+		<td class="width30">Step: pause until @element is clickable</td>
+		<td class="width40"><div> Tesbo Will wait untile element became clickable</div>
         </td>
 	</tr>
 	<tr>
-		<td class="width10">Minimize Browser Window</td>
-		<td class="width30">Step: Window minimize</td>
-		<td class="width40"><div> Tesbo will minimize the browser window</div> </td>
+		<td class="width10">Wait Until Element is disapper</td>
+		<td class="width30">Step: Pause until @element is disappear</td>
+		<td class="width40"><div> Tesbo will wait until given element is going to disappear</div> </td>
 	</tr>
 	<tr>
-		<td class="width10">Maximize Browser Window</td>
-		<td class="width30">Step: Window Maximize</td>
-		<td class="width40"><div> Tesbo will maximise the browser window</div>
+		<td class="width10">Wait Until Element is display</td>
+		<td class="width30">Step: pause until @element is display</td>
+		<td class="width40"><div> Tesbo will wait until given element is going to display</div>
         </td>
 	</tr>
 	<tr>
-		<td class="width10">Resize the Browser Window</td>
-		<td class="width30">Step: Window Resize (width,height)</td>
-		<td class="width40"><div> Tesbo will resize te browser Window</div>
+		<td class="width10">Wait for given second</td>
+		<td class="width30">Step: Pause for 1 sec</td>
+		<td class="width40"><div> Tesbo will wait for the given second</div>
         </td>
 	</tr>
     </tbody>
