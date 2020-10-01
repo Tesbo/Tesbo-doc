@@ -135,5 +135,33 @@ This page contains all the Tesbo Supported Keywords
 </table>
 
 
-
+<h4>Navigation</h4> 
+<table>
+	<thead>
+	<tr>
+		<th>Action</th>
+		<th>Keyword</th>
+		<th>Description</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td class="width10">Navigate to back</td>
+		<td class="width30">Step: Navigate to back</td>
+		<td class="width40"><div> Tesbo will redirect to the previous page</div>
+        </td>
+	</tr>
+	<tr>
+		<td class="width10">Navigate to Forward</td>
+		<td class="width30">Step: Navigate to forward</td>
+		<td class="width40"><div> Tesbo will redirected on the Next Page</div> </td>
+	</tr>
+	<tr>
+		<td class="width10">Refresh Page</td>
+		<td class="width30">Step: refresh  page</td>
+		<td class="width40"><div> Tesbo will refresh page</div>
+        </td>
+	</tr>
+    </tbody>
+</table>
 
