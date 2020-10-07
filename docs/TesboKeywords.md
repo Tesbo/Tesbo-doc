@@ -236,4 +236,322 @@ This page contains all the Tesbo Supported Keywords
         </td>
 	</tr>
     </tbody>
+    
+    
 </table>
+
+<h4>Scroll</h4>
+<table>
+	<thead>
+	<tr>
+		<th>Action</th>
+		<th>Keyword</th>
+		<th>Description</th>
+	</tr>
+	</thead>
+	<tbody>
+        <tr>
+            <td class="width10">bottom</td>
+            <td class="width30">Step: Scroll to bottom</td>
+            <td class="width40"><div>Scroll to bottom of the page</div>
+            </td>
+        </tr>
+        <tr>
+              <td class="width10">top</td>
+              <td class="width30">Step: Scroll to Top</td>
+              <td class="width40"><div>Scroll to top of the page</div>
+              </td>
+         </tr>
+        <tr>
+            <td class="width10">coordinate</td>
+            <td class="width30">Step: Scroll to coordinate (X,Y)</td>
+            <td class="width40"><div>Scroll to coordinate of the page e.g coordinate (50,500)</div>
+            </td>
+        </tr>
+        <tr>
+             <td class="width10">element</td>
+             <td class="width30">Step: Scroll to @element</td>
+             <td class="width40"><div>Scroll to given element e.g @AutomationTools</div>
+             </td>
+         </tr>
+         <tr>
+             <td class="width10">horizontal</td>
+             <td class="width30">Step: Scroll to Horizontal</td>
+             <td class="width40"><div>Scroll to horizontal on the page</div>
+             </td>
+         </tr>
+    </tbody>   
+</table>
+
+<h4>Alert</h4>
+
+<table>
+	<thead>
+	<tr>
+		<th>Action</th>
+		<th>Keyword</th>
+		<th>Description</th>
+	</tr>
+	</thead>
+	<tbody>
+        <tr>
+            <td class="width10">accept</td>
+            <td class="width30">Step: Switch to alert then accept</td>
+            <td class="width40"><div> First, it will switch to Alert and Accept the condition</div>
+            </td>
+        </tr>
+        <tr>
+              <td class="width10">close</td>
+              <td class="width30">Step: Switch to alert then close</td>
+              <td class="width40"><div>First, it will switch to Alert and Close the Alert.</div>
+              </td>
+         </tr>
+        <tr>
+            <td class="width10">enter</td>
+            <td class="width30">Step: Switch to alert then enter 'Testing Demo'</td>
+            <td class="width40"><div>First, it will switch to Alert and then enter text in the textbox in the alert</div>
+            </td>
+        </tr>
+        <tr>
+             <td class="width10">verify text</td>
+             <td class="width30">Step: Switch to alert then verify text with 'I am an alert box!'</td>
+             <td class="width40"><div>First, it will switch to alert and then verify text on alert</div>
+             </td>
+         </tr>
+    </tbody>   
+</table>
+
+ 
+<h4>iFrames</h4>
+
+<table>
+	<thead>
+	<tr>
+		<th>Action</th>
+		<th>Keyword</th>
+		<th>Description</th>
+	</tr>
+	</thead>
+	<tbody>
+        <tr>
+            <td class="width10">element</td>
+            <td class="width30">Step: Switch to frame @SingleIframe</td>
+            <td class="width40"><div>Switch to iFrame using element</div>
+            </td>
+        </tr>
+        <tr>
+              <td class="width10">id</td>
+              <td class="width30">Step: Switch to frame using id 'singleframe'</td>
+              <td class="width40"><div>Switch to iFrame using ID</div>
+              </td>
+         </tr>
+        <tr>
+            <td class="width10">name</td>
+            <td class="width30">Step: Switch to frame using name 'singleframe'</td>
+            <td class="width40"><div>Switch to iFrame using name</div>
+            </td>
+        </tr>
+        <tr>
+             <td class="width10">main</td>
+             <td class="width30">Step: Switch to main frame</td>
+             <td class="width40"><div>Switch to Main Frame</div>
+             </td>
+        </tr>
+        <tr>
+             <td class="width10">parent</td>
+             <td class="width30">Step: Switch to parent frame</td>
+             <td class="width40"><div>Switch to Parent Frame</div>
+             </td>
+        </tr>
+    </tbody>   
+</table>
+
+<h4>Window</h4>
+
+<table>
+	<thead>
+	<tr>
+		<th>Action</th>
+		<th>Keyword</th>
+		<th>Description</th>
+	</tr>
+	</thead>
+	<tbody>
+        <tr>
+            <td class="width10">main</td>
+            <td class="width30">Step: Switch to main window</td>
+            <td class="width40"><div>Switch to main window</div>
+            </td>
+        </tr>
+        <tr>
+              <td class="width10">new</td>
+              <td class="width30">Step: Switch to new window</td>
+              <td class="width40"><div>Switch to new window</div>
+              </td>
+         </tr>
+        <tr>
+            <td class="width10">parent</td>
+            <td class="width30">Step: Switch to parent window</td>
+            <td class="width40"><div>Switch to parent window</div>
+            </td>
+        </tr>
+    </tbody>   
+</table>
+
+<h4>Select From Dropdown</h4>
+
+<table>
+	<thead>
+	<tr>
+		<th>Action</th>
+		<th>Keyword</th>
+		<th>Description</th>
+	</tr>
+	</thead>
+	<tbody>
+        <tr>
+            <td class="width10">using text</td>
+            <td class="width30">Step: Select using text 'Enter text you want to select' from @dropdownElement</td>
+            <td class="width40"><div>Select given text from dropdown</div>
+            </td>
+        </tr>
+        <tr>
+              <td class="width10">using index</td>
+              <td class="width30">Step: Select using index 1 from @dropdownElement</td>
+              <td class="width40"><div>Select text from dropdown using index</div>
+              </td>
+         </tr>
+        <tr>
+            <td class="width10">using value</td>
+            <td class="width30">Step: Select using value 'enter attribute value of element' from @dropdownElement</td>
+            <td class="width40"><div>Select text using given attribute value of element</div>
+            </td>
+        </tr>
+    </tbody>   
+</table>
+
+<h4>Deselect From Dropdown</h4>
+
+<table>
+	<thead>
+	<tr>
+		<th>Action</th>
+		<th>Keyword</th>
+		<th>Description</th>
+	</tr>
+	</thead>
+	<tbody>
+        <tr>
+            <td class="width10">all</td>
+            <td class="width30">Step: Deselect all from @MultiSelectDropdownElement</td>
+            <td class="width40"><div>Deselect all value from dropdown</div>
+            </td>
+        </tr>
+        <tr>
+              <td class="width10">using text</td>
+              <td class="width30">Step: Deselect using text 'Enter text you want to deselect' from @multiSelectDropdownElement</td>
+              <td class="width40"><div>Deselect given text from multi select dropdown</div>
+              </td>
+         </tr>
+        <tr>
+            <td class="width10">using value</td>
+            <td class="width30">Step: Deselect using value 'enter attribute value of element' from @multiSelectDropdownElement</td>
+            <td class="width40"><div>Deselect text using given attribute value from multi select dropdown</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="width10">using index</td>
+            <td class="width30">Step: Deselect using index 1 from @multiSelectDropdownElement</td>
+            <td class="width40"><div>Deselect text from multi select dropdown using index</div>
+            </td>
+        </tr>
+    </tbody>   
+</table>
+
+
+<h4>Cookies and Cache</h4>
+
+<table>
+	<thead>
+	<tr>
+		<th>Action</th>
+		<th>Keyword</th>
+		<th>Description</th>
+	</tr>
+	</thead>
+	<tbody>
+        <tr>
+            <td class="width10">clear cache</td>
+            <td class="width30">Step: Clear Cache</td>
+            <td class="width40"><div>To clear browser cache data</div>
+            </td>
+        </tr>
+        <tr>
+              <td class="width10">clear cookies</td>
+              <td class="width30">Step: clear cookies</td>
+              <td class="width40"><div>To clear browser cookies from System</div>
+              </td>
+         </tr>
+    </tbody>   
+</table>
+
+<h4>Print</h4>
+
+<table>
+	<thead>
+	<tr>
+		<th>Action</th>
+		<th>Keyword</th>
+		<th>Description</th>
+	</tr>
+	</thead>
+	<tbody>
+        <tr>
+            <td class="width10">print element text</td>
+            <td class="width30">Step: Print @element</td>
+            <td class="width40"><div>To Print element text</div>
+            </td>
+        </tr>
+        <tr>
+              <td class="width10">print text</td>
+              <td class="width30">Step: Print "enter text you want to print"</td>
+              <td class="width40"><div>Print or comment text</div>
+              </td>
+         </tr>
+         <tr>
+               <td class="width10">print text</td>
+               <td class="width30">reporter.printStep("Any String");</td>
+               <td class="width40"><div>Print Steps in report from custom step</div>
+               </td>
+          </tr>
+    </tbody>   
+</table>
+
+<h4>Screenshot</h4>
+
+<table>
+	<thead>
+	<tr>
+		<th>Action</th>
+		<th>Keyword</th>
+		<th>Description</th>
+	</tr>
+	</thead>
+	<tbody>
+        <tr>
+            <td class="width10">screenshot</td>
+            <td class="width30">Step: Capture screenshot</td>
+            <td class="width40"><div>To Capture page screenshot</div>
+            </td>
+        </tr>
+        <tr>
+              <td class="width10">element screenshot</td>
+              <td class="width30">Step: capture screenshot of @element</td>
+              <td class="width40"><div>Capture screenshot of particular element</div>
+              </td>
+         </tr>
+    </tbody>   
+</table>
+
+
+ 
