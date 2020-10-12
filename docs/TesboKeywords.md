@@ -553,5 +553,189 @@ This page contains all the Tesbo Supported Keywords
     </tbody>   
 </table>
 
+<h4>Assert Attribute</h4>
+
+<table>
+	<thead>
+	<tr>
+		<th>Action</th>
+		<th>Keyword</th>
+		<th>Description</th>
+	</tr>
+	</thead>
+	<tbody>
+        <tr>
+                <td class="width10">attribute value equal to</td>
+                <td class="width30">Verify: Get attribute 'attribute name' of @element is equal to 'attribute value'</td>
+                <td class="width40"><div>Assert element attribute value is not equal to given text</div>
+                </td>
+        </tr>
+        <tr>
+              <td class="width10">attribute value not equal to</td>
+              <td class="width30">Verify: Get attribute 'attribute name' of @element is not equal to 'attribute value'</td>
+              <td class="width40"><div>Assert element attribute value is not equal to given text</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">attribute value equal to ignore case</td>
+              <td class="width30">Verify: Get attribute 'attribute name' of @element is equal to ignore case 'attribute value'</td>
+              <td class="width40"><div>Assert element attribute value is equal to ignore case of given text</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">attribute value same as given text</td>
+              <td class="width30">Verify: Get attribute 'attribute name' of @element contains is 'attribute value'</td>
+              <td class="width40"><div>Assert element attribute text contains is same as given text</div>
+              </td>
+        </tr>      
+    </tbody>   
+</table>
+
+<h4>Assert CSS Value</h4>
+
+<table>
+	<thead>
+	<tr>
+		<th>Action</th>
+		<th>Keyword</th>
+		<th>Description</th>
+	</tr>
+	</thead>
+	<tbody>
+        <tr>
+              <td class="width10">CSS value equal to</td>
+              <td class="width30">Verify: Get css value 'css name' of @element is equal to 'css value'</td>
+              <td class="width40"><div>Assert element  CSS value is equal to given text</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">CSS value not equal to</td>
+              <td class="width30">Verify: Get css value 'css name' of @element is not equal to 'css value'</td>
+              <td class="width40"><div>Assert element CSS value is not equal to given text</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">CSS value not equal to ignore case</td>
+              <td class="width30">Verify: Get css value 'css name' of @element is equal to ignore case 'css value'</td>
+              <td class="width40"><div>Assert element CSS value is equal to ignore case of given text</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">CSS value contains</td>
+              <td class="width30">Verify: Get css value 'css name' of @element contains is 'css value'</td>
+              <td class="width40"><div>Assert element CSS text contains is same as given text</div>
+              </td>
+        </tr>
+              
+    </tbody>   
+</table>
+
+<h4>Assert multiple element</h4>
+
+<table>
+	<thead>
+	<tr>
+		<th>Action</th>
+		<th>Keyword</th>
+		<th>Description</th>
+	</tr>
+	</thead>
+	<tbody>
+        <tr>
+              <td class="width10">multiple element with AND condition</td>
+              <td class="width30">Verify: @element text is not equal to 'verify text' And @element text is equal to 'verify text'</td>
+              <td class="width40"><div>Assert multiple element with AND condition</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">multiple element with OR condition</td>
+              <td class="width30">Verify: @element text is not equal to 'verify text' OR @element text is equal to 'verify text'</td>
+              <td class="width40"><div>Assert multiple element with OR condition</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">multiple element is displayed</td>
+              <td class="width30">Verify: @element @element @element is displayed</td>
+              <td class="width40"><div>Assert that multiple element is displayed or not</div>
+              </td>
+        </tr>         
+    </tbody>   
+</table>
+
+<h4>Assert</h4>
+
+<table>
+	<thead>
+	<tr>
+		<th>Action</th>
+		<th>Keyword</th>
+		<th>Description</th>
+	</tr>
+	</thead>
+	<tbody>
+        <tr>
+              <td class="width10">current url contains</td>
+              <td class="width30">Verify: current url is contains 'url contain'</td>
+              <td class="width40"><div>Current URL contains is available in given text</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">Current url equal to</td>
+              <td class="width30">Verify: Current url is equal to 'URL'</td>
+              <td class="width40"><div>Current URL is equal to same as given URL</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">number of elements</td>
+              <td class="width30">Verify: @element has size of 'number of element'</td>
+              <td class="width40"><div>Element has given number of elements</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">element displayed</td>
+              <td class="width30">Verify: @element is displayed</td>
+              <td class="width40"><div>Element is displayed or not</div>
+              </td>
+        </tr>     
+        <tr>
+              <td class="width10">element present</td>
+              <td class="width30">Verify: @element is present</td>
+              <td class="width40"><div>Element is present or not</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">element visible</td>
+              <td class="width30">Verify: @element is visible</td>
+              <td class="width40"><div>Element is visible or not</div>
+              </td>
+        </tr> 
+        <tr>
+              <td class="width10">element contains is ignore case</td>
+              <td class="width30">Verify: @element text contains is ignore case of 'verify text'</td>
+              <td class="width40"><div>Element text contains is ignore case of given text</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">element contains</td>
+              <td class="width30">Verify: @element text contains is 'verify text'</td>
+              <td class="width40"><div>Element text contains is same as given text</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">element text end with</td>
+              <td class="width30">Verify: @element text is end with 'verify text'</td>
+              <td class="width40"><div>Element text is end with same as given text</div>
+              </td>
+        </tr> 
+        <tr>
+              <td class="width10">element text equal</td>
+              <td class="width30">Verify: @element text is equal to 'verify text'</td>
+              <td class="width40"><div>Element text is equal to given text</div>
+              </td>
+        </tr>   
+    </tbody>   
+</table>
+
+
 
  
