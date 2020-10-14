@@ -625,8 +625,7 @@ This page contains all the Tesbo Supported Keywords
               <td class="width30">Verify: Get css value 'css name' of @element contains is 'css value'</td>
               <td class="width40"><div>Assert element CSS text contains is same as given text</div>
               </td>
-        </tr>
-              
+        </tr>     
     </tbody>   
 </table>
 
@@ -732,10 +731,98 @@ This page contains all the Tesbo Supported Keywords
               <td class="width30">Verify: @element text is equal to 'verify text'</td>
               <td class="width40"><div>Element text is equal to given text</div>
               </td>
-        </tr>   
+        </tr>
+        <tr>
+              <td class="width10">equal to ignore case</td>
+              <td class="width30">Verify: @element text is equal to ignore case 'verify text'</td>
+              <td class="width40"><div>Element text is equal to ignore case of given text</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">not equal</td>
+              <td class="width30">Verify: @element text is not equal to 'verify text'</td>
+              <td class="width40"><div>Element text is not equal to given text</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">element text start with</td>
+              <td class="width30">Verify: @element text is start with 'verify text'</td>
+              <td class="width40"><div>Element text is start with same as given text</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">element text is alphanumeric</td>
+              <td class="width30">Verify: @element text should be alphanumeric</td>
+              <td class="width40"><div>Element text should be alphanumeric</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">element text is number</td>
+              <td class="width30">Verify: @element text should be number</td>
+              <td class="width40"><div>Element text should be number</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">get cookies and check</td>
+              <td class="width30">Verify: Get cookies and check 'cookie name' is available</td>
+              <td class="width40"><div>Get cookies and check particular cookie is available or not</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">page title with ignore case</td>
+              <td class="width30">Verify: Page Title is equal to ignore case 'verify text'</td>
+              <td class="width40"><div>Page title is equal to ignore case of given text</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">page title with same case</td>
+              <td class="width30">Verify: Page Title is equal to 'verify text'</td>
+              <td class="width40"><div>Page Title is equal to same as given text</div>
+              </td>
+        </tr>     
     </tbody>   
 </table>
 
-
-
+<h4>Keyboard & Mouse Action</h4>
+<table>
+	<thead>
+	<tr>
+		<th>Action</th>
+		<th>Keyword</th>
+		<th>Description</th>
+	</tr>
+	</thead>
+	<tbody>
+        <tr>
+              <td class="width10">mouse hover on element</td>
+              <td class="width30">Step: Mouse hover @element</td>
+              <td class="width40"><div>Mouse hover on given element</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">press key from keyboard</td>
+              <td class="width30">Step: Press 'CTRL' Plus 'key' in @Email_Box</td>
+              <td class="width40"><div>Press CTRL + A, CTRL + C and CTRL + V from keyboard</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">press enter key</td>
+              <td class="width30">Step: Press enter key</td>
+              <td class="width40"><div>Press enter key from keyboard</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">press enter key on element</td>
+              <td class="width30">Step: Press enter key on @element</td>
+              <td class="width40"><div>Press enter key from keyboard on given element</div>
+              </td>
+        </tr>
+        <tr>
+              <td class="width10">press tab key</td>
+              <td class="width30">Step: Press tab key</td>
+              <td class="width40"><div>Press tab key from keyboard</div>
+              </td>
+        </tr>        
+    </tbody>   
+</table>
  
