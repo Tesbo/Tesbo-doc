@@ -9,7 +9,8 @@
 
 module.exports = {
   someSidebar: {
-    Docusaurus: ['GettingStarted', 'TesboKeyword']
+    API: ['Browser Actions','BeforeAndAfter'],
+    Tutorial: ['GettingStarted']
     
   },
 };

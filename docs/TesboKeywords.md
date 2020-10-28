@@ -1,6 +1,6 @@
 ---
-id: TesboKeyword
-title: All Tesbo Keyword and Action
+id: Browser Actions
+title: Browser Actions
 
 ---
 
