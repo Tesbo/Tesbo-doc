@@ -1,13 +1,12 @@
 ---
 id: GettingStarted
-title: Getting Started With Tesbo
-sidebar_label: Getting Started With Tesbo
+title: Create your first Test in Tesbo
+sidebar_label: Create your first Test in Tesbo
 slug: /
 
 ---
 
 
-dhkasjhdkjsahdkj
 In this article, We are going to explore basics of the Tesbo and Will start to write the one simple test script.
 
 We need some Prerequisite, let’s take a look on it

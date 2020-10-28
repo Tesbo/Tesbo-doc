@@ -9,8 +9,10 @@
 
 module.exports = {
   someSidebar: {
-    API: ['Browser Actions','BeforeAndAfter'],
-    Tutorial: ['GettingStarted']
+    'Getting Started': ['GettingStarted'],
+    FrameworkFeature: ['Before And After'],
+    API: ['Browser Actions'],
+    'Tesbo Advance' : []
     
   },
 };
