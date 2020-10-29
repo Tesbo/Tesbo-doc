@@ -29,7 +29,7 @@ you can create multiple suite file inside the suite directory and also the the m
 :::
 
 
-## *.JSON Files
+## *.json Files
 
 Tesbo uses the JSON file for the defining the locator for the element. 
 
