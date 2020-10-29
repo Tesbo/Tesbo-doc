@@ -53,3 +53,9 @@ you don't required to mention the type of locators, Tesbo will automatically ide
 ## *.Java Files
 
 Tesbo provide the support the write the custom step using Java file.
+
+
+## config.json Files
+
+config.json is the main configuration file for the test execution, you define all the configuration like BaseURL, Enviroment, Test to run using Tags or Suite, browser etc inside the config file.
+ 
