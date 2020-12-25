@@ -7,7 +7,6 @@ title: Configuration File Data
 Sometime We need to run the Test based on the configuration that we have provided into the Config like browser, OS or Environment. Tesbo provide the API to get the config file data runtime by using GetUserConfiguration Class. you can utilize this into the custom steps code. 
 
 
-<h4>Click :</h4> 
 <table class="demo">
 	<thead>
 	<tr>

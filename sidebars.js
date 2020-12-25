@@ -10,7 +10,7 @@
 module.exports = {
   someSidebar: {
     'Getting Started': ['GettingStarted','TestDefine'],
-    FrameworkFeature: ['Before And After'],
+    FrameworkFeature: ['Before And After','IFELSE','HandlingData'],
     API: ['Browser Actions', 'GetConfigData'],
     'Tesbo Advance' : []
     
