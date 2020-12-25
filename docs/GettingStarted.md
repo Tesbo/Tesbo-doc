@@ -75,7 +75,7 @@ Find the Latest Version from [here](https://mvnrepository.com/artifact/io.tesbo/
            │        │       └─── moduleName.tests  # All the test define here
            │        └── suite
            │        │       └─── moduleName.suite  # Collection of Test for execution
-           │        └── customStep
+           │        └── customstep
            │               └─── anyfilename.java   # Define your custom code here
            │        └── dataset                    # defing data in json or Excel 
            │
